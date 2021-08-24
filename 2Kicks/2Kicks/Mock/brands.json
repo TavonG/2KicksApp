@@ -1,0 +1,42 @@
+[
+    {
+        "id": "112cfaf2-435a-4917-91f0-80f88c7b6b81",
+        "name": "Nike",
+        "description:": "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area."
+    },
+    {
+        "id": "17bd9ecd-3af2-4e4b-9510-ef25766fb444",
+        "name": "Adidas",
+        "description:": "Adidas AG is a German multinational corporation, founded and headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories. It is the largest sportswear manufacturer in Europe, and the second largest in the world, after Nike."
+    },
+    {
+        "id": "632773e5-6968-4c0e-ba72-e2ebbe80ad49",
+        "name": "Jordan",
+        "description:": "Air Jordan is an American brand of basketball shoes, athletic, casual, and style clothing produced by Nike. Founded in Chicago, Air Jordan was created for Hall of Fame former basketball player Michael Jordan during his time with the Chicago Bulls. The original Air Jordan sneakers were produced exclusively for Michael Jordan in late 1984, and released to the public on April 1, 1985. The shoes were designed for Nike by Peter Moore, Tinker Hatfield, and Bruce Kilgore."
+    },
+    {
+        "id": "368fc325-112a-4664-8247-3127e0fed3bf",
+        "name": "Reebok",
+        "description:": "Reebok International Limited (/ˈriːbɒk/) is an American footwear and clothing manufacturer that has been a subsidiary of Authentic Brands Group since August 2021. From 2005 to 2021 the brand was owned by German of sporting goods giant Adidas. Reebok produces and distributes fitness, running and CrossFit sportswear including clothing and footwear. It is the official footwear and apparel sponsor for CrossFit, and Spartan Race. In 1958, Reebok was established in Great Britain as a companion company to J.W. Foster and Sons, a sporting goods company which had been founded in 1895 in Bolton, Lancashire. From 1958 until 1986, the brand featured the Union Jack flag in its logo to signify the origins of the company."
+    },
+    {
+        "id": "223713ce-b304-49c1-8b94-5e2dfb03536b",
+        "name": "Vans",
+        "description:": "Vans is an American manufacturer of skateboarding shoes and related apparel, started in Anaheim, California, and owned by VF Corporation. The company also sponsors surf, snowboarding, BMX, and motocross teams. From 1996 to 2019, the company has been the primary sponsor of the annual Vans Warped Tour traveling rock festival."
+    },
+    {
+        "id": "a1938308-9596-4950-a67d-7201915c992b",
+        "name": "Converse",
+        "description:": "Converse /ˈkɒnvərs/ is an American shoe company that designs, distributes, and licenses sneakers, skating shoes, lifestyle brand footwear, apparel, and accessories. Founded in 1908, it has been a subsidiary of Nike, Inc. since 2003. During World War II, Converse shifted its manufacturing to make footwear for the military. It was one of the few producers of athletic shoes and for over a half century the company dominated the American athletic shoe market. From the 1970s, the company lost its dominant position as competitors presented their own styles. Today the company's portfolio include products under the Converse, Cons, Chuck Taylor All-Star (Chucks), Jack Purcell, One Star, and Star Chevron trademarks. Converse frequently collaborates on special edition product releases with other brands such as John Varvatos. Converse shoes are distinguished by a number of features, including the company's star insignia, the All Star's rubber sole, smooth rounded toe, and wrap-around strip."
+    },
+    {
+        "id": "d6d2bed6-24fd-4ac9-b174-3cb7fa56b2b6",
+        "name": "Under Armor",
+        "description:": "Under Armour, Inc. is an American sports equipment company that manufactures footwear, sports and casual apparel. Under Armour's global headquarters are located in Baltimore, Maryland, with additional offices located in Amsterdam (European headquarters), Austin, Guangzhou, Hong Kong, Houston, Jakarta, London, Mexico City, Munich, New York City, Panama City (international headquarters), Paris, Pittsburgh, Portland, San Francisco, São Paulo, Santiago, Seoul, Shanghai (Greater Chinese headquarters), and Toronto."
+    },
+    {
+        "id": "a3d1c515-fade-478e-b136-f084afbf195e",
+        "name": "Puma",
+        "description:": "Puma SE, branded as Puma, is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories, which is headquartered in Herzogenaurach, Bavaria, Germany. Puma is the third largest sportswear manufacturer in the world. The company was founded in 1948 by Rudolf Dassler. In 1924, Rudolf and his brother Adolf (Adi) Dassler had jointly formed the company Gebrüder Dassler Schuhfabrik (Dassler Brothers Shoe Factory). The relationship between the two brothers deteriorated until the two agreed to split in 1948, forming two separate entities, Adidas and Puma. Both companies are currently based in Herzogenaurach, Germany."
+    }
+]
