@@ -1,0 +1,52 @@
+[
+    {
+        "id": "112cfaf2-435a-4917-91f0-80f88c7b6b81",
+        "name": "Football (Soccer)",
+        "followers:": 3000000000
+    },
+    {
+        "id": "fa8bc2db-0bb2-42e9-94b3-65e05a5f6b2a",
+        "name": "Cricket",
+        "followers:": 2500000000
+    },
+    {
+        "id": "4674cfb5-2674-4fe1-86ec-457454aa01c1",
+        "name": "Basketball",
+        "followers:": 2200000000
+    },
+    {
+        "id": "bf0874bd-5223-4dff-affd-25f45c31e28c",
+        "name": "Field Hockey",
+        "followers:": 2000000000
+    },
+    {
+        "id": "e92e4d7f-c592-4b2d-a23a-1c143ce29730",
+        "name": "Tennis",
+        "followers:": 1000000000
+    },
+    {
+        "id": "a9b39ee4-4c52-4934-baff-64ee79a30329",
+        "name": "Volleyball",
+        "followers:": 900000000
+    },
+    {
+        "id": "d09ac155-7fe1-4f4a-916b-4ebb89aa8f20",
+        "name": "Table Tennis",
+        "followers:": 850000000
+    },
+    {
+        "id": "e012f9d3-5f95-4902-a5ee-07611771c24f",
+        "name": "Baseball",
+        "followers:": 500000000
+    },
+    {
+        "id": "a9c47bef-36b4-494d-963f-b98127fc75fa",
+        "name": "American Football / Rugby",
+        "followers:": 410000000
+    },
+    {
+        "id": "84bd728f-ae21-40af-9217-ca7d98d65d11",
+        "name": "Golf",
+        "followers:": 390000000
+    }
+]
