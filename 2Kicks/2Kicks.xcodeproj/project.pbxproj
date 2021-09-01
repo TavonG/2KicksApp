@@ -16,8 +16,9 @@
 		5AB7F08026D2A9F1003FFA22 /* ProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F07F26D2A9F1003FFA22 /* ProductImage.swift */; };
 		5AB7F08326D2B151003FFA22 /* Bundle+2Kicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F08226D2B151003FFA22 /* Bundle+2Kicks.swift */; };
 		5AB7F08626D2B2A7003FFA22 /* CustomsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F08526D2B2A7003FFA22 /* CustomsListView.swift */; };
+		5AF2CA0926DFE44400B751DF /* KicksHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2CA0826DFE44400B751DF /* KicksHomeView.swift */; };
+		5AF2CA0B26DFE44F00B751DF /* KicksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2CA0A26DFE44F00B751DF /* KicksListView.swift */; };
 		D5B229B526CD684700C7B55A /* _KicksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B229B426CD684700C7B55A /* _KicksApp.swift */; };
-		D5B229B726CD684800C7B55A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B229B626CD684800C7B55A /* ContentView.swift */; };
 		D5B229B926CD684D00C7B55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B229B826CD684D00C7B55A /* Assets.xcassets */; };
 		D5B229BC26CD684D00C7B55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B229BB26CD684D00C7B55A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -32,9 +33,10 @@
 		5AB7F07F26D2A9F1003FFA22 /* ProductImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImage.swift; sourceTree = "<group>"; };
 		5AB7F08226D2B151003FFA22 /* Bundle+2Kicks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+2Kicks.swift"; sourceTree = "<group>"; };
 		5AB7F08526D2B2A7003FFA22 /* CustomsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsListView.swift; sourceTree = "<group>"; };
+		5AF2CA0826DFE44400B751DF /* KicksHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KicksHomeView.swift; sourceTree = "<group>"; };
+		5AF2CA0A26DFE44F00B751DF /* KicksListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KicksListView.swift; sourceTree = "<group>"; };
 		D5B229B126CD684700C7B55A /* 2Kicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Kicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B229B426CD684700C7B55A /* _KicksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _KicksApp.swift; sourceTree = "<group>"; };
-		D5B229B626CD684800C7B55A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5B229B826CD684D00C7B55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B229BB26CD684D00C7B55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5B229BD26CD684D00C7B55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,7 +85,8 @@
 		5AB7F08426D2B286003FFA22 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D5B229B626CD684800C7B55A /* ContentView.swift */,
+				5AF2CA0826DFE44400B751DF /* KicksHomeView.swift */,
+				5AF2CA0A26DFE44F00B751DF /* KicksListView.swift */,
 				5AB7F08526D2B2A7003FFA22 /* CustomsListView.swift */,
 			);
 			path = Views;
@@ -203,10 +206,11 @@
 				5AB7F08326D2B151003FFA22 /* Bundle+2Kicks.swift in Sources */,
 				5AB7F07326D2A076003FFA22 /* Sport.swift in Sources */,
 				5AB7F07526D2A0CC003FFA22 /* Brand.swift in Sources */,
-				D5B229B726CD684800C7B55A /* ContentView.swift in Sources */,
 				5AB7F07726D2A0F1003FFA22 /* Product.swift in Sources */,
+				5AF2CA0926DFE44400B751DF /* KicksHomeView.swift in Sources */,
 				5AB7F08626D2B2A7003FFA22 /* CustomsListView.swift in Sources */,
 				D5B229B526CD684700C7B55A /* _KicksApp.swift in Sources */,
+				5AF2CA0B26DFE44F00B751DF /* KicksListView.swift in Sources */,
 				5AB7F08026D2A9F1003FFA22 /* ProductImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
