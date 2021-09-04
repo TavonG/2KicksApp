@@ -11,9 +11,13 @@ struct CustomsListView: View {
     let items = Product.allItemsFromJSON()
     
     var body: some View {
-        List(items) {
-            Text($0.name)
+        List(items) { item in
+            NavigationLink(destination: CustomsDetailView(item: item)) {
+                ProductCellView(product: item)
+            }
         }
+        .navigationTitle("My Kicks")
+        .listStyle(InsetGroupedListStyle())
     }
 }
 

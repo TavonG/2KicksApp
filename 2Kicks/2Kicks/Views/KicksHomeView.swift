@@ -19,7 +19,7 @@ struct KicksHomeView: View {
                         .foregroundColor(.red)
                         .offset(y: -60)
                     
-                    NavigationLink(destination: KicksListView(), label: {
+                    NavigationLink(destination: CustomsListView(), label: {
                         Text("View Kicks List")
                             .bold()
                             .frame(width: 200, height: 50)
