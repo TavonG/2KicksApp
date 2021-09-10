@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A8C942126E3B91E00757759 /* CustomsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8C942026E3B91E00757759 /* CustomsDetailView.swift */; };
 		5AB7F07326D2A076003FFA22 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F07226D2A076003FFA22 /* Sport.swift */; };
 		5AB7F07526D2A0CC003FFA22 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F07426D2A0CC003FFA22 /* Brand.swift */; };
 		5AB7F07726D2A0F1003FFA22 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F07626D2A0F1003FFA22 /* Product.swift */; };
@@ -18,12 +19,15 @@
 		5AB7F08626D2B2A7003FFA22 /* CustomsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7F08526D2B2A7003FFA22 /* CustomsListView.swift */; };
 		5AF2CA0926DFE44400B751DF /* KicksHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2CA0826DFE44400B751DF /* KicksHomeView.swift */; };
 		5AF2CA0B26DFE44F00B751DF /* KicksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2CA0A26DFE44F00B751DF /* KicksListView.swift */; };
+		5AF2CA0F26DFE63F00B751DF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5AF2CA0E26DFE63F00B751DF /* SDWebImageSwiftUI */; };
+		5AF2CA1126DFE65D00B751DF /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2CA1026DFE65D00B751DF /* ProductCellView.swift */; };
 		D5B229B526CD684700C7B55A /* _KicksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B229B426CD684700C7B55A /* _KicksApp.swift */; };
 		D5B229B926CD684D00C7B55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B229B826CD684D00C7B55A /* Assets.xcassets */; };
 		D5B229BC26CD684D00C7B55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B229BB26CD684D00C7B55A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A8C942026E3B91E00757759 /* CustomsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsDetailView.swift; sourceTree = "<group>"; };
 		5AB7F07226D2A076003FFA22 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		5AB7F07426D2A0CC003FFA22 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		5AB7F07626D2A0F1003FFA22 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -35,6 +39,7 @@
 		5AB7F08526D2B2A7003FFA22 /* CustomsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomsListView.swift; sourceTree = "<group>"; };
 		5AF2CA0826DFE44400B751DF /* KicksHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KicksHomeView.swift; sourceTree = "<group>"; };
 		5AF2CA0A26DFE44F00B751DF /* KicksListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KicksListView.swift; sourceTree = "<group>"; };
+		5AF2CA1026DFE65D00B751DF /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
 		D5B229B126CD684700C7B55A /* 2Kicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2Kicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B229B426CD684700C7B55A /* _KicksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _KicksApp.swift; sourceTree = "<group>"; };
 		D5B229B826CD684D00C7B55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF2CA0F26DFE63F00B751DF /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,11 +91,21 @@
 		5AB7F08426D2B286003FFA22 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AF2CA0C26DFE5D300B751DF /* Components */,
 				5AF2CA0826DFE44400B751DF /* KicksHomeView.swift */,
 				5AF2CA0A26DFE44F00B751DF /* KicksListView.swift */,
 				5AB7F08526D2B2A7003FFA22 /* CustomsListView.swift */,
+				5A8C942026E3B91E00757759 /* CustomsDetailView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5AF2CA0C26DFE5D300B751DF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AF2CA1026DFE65D00B751DF /* ProductCellView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		D5B229A826CD684700C7B55A = {
@@ -147,6 +163,9 @@
 			dependencies = (
 			);
 			name = 2Kicks;
+			packageProductDependencies = (
+				5AF2CA0E26DFE63F00B751DF /* SDWebImageSwiftUI */,
+			);
 			productName = 2Kicks;
 			productReference = D5B229B126CD684700C7B55A /* 2Kicks.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +193,9 @@
 				Base,
 			);
 			mainGroup = D5B229A826CD684700C7B55A;
+			packageReferences = (
+				5AF2CA0D26DFE63F00B751DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = D5B229B226CD684700C7B55A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,9 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB7F08326D2B151003FFA22 /* Bundle+2Kicks.swift in Sources */,
+				5A8C942126E3B91E00757759 /* CustomsDetailView.swift in Sources */,
 				5AB7F07326D2A076003FFA22 /* Sport.swift in Sources */,
 				5AB7F07526D2A0CC003FFA22 /* Brand.swift in Sources */,
 				5AB7F07726D2A0F1003FFA22 /* Product.swift in Sources */,
+				5AF2CA1126DFE65D00B751DF /* ProductCellView.swift in Sources */,
 				5AF2CA0926DFE44400B751DF /* KicksHomeView.swift in Sources */,
 				5AB7F08626D2B2A7003FFA22 /* CustomsListView.swift in Sources */,
 				D5B229B526CD684700C7B55A /* _KicksApp.swift in Sources */,
@@ -400,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AF2CA0D26DFE63F00B751DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AF2CA0E26DFE63F00B751DF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AF2CA0D26DFE63F00B751DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5B229A926CD684700C7B55A /* Project object */;
 }
